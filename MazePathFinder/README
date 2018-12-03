@@ -1,0 +1,14 @@
+The solution has a simple structure:
+- Main class - with a main function reading the input and calling the best solution finder
+- BestSolutionFinder - which calls the maze finder and stores all the possible paths found
+- MazeSolver - actually solves the maze by using a DFS search algorithm - as the project hasn't
+specifically requested to find the >best path< solution, I have implemented the simplest one,
+as per request
+- MazePrinter - that has only the duty of tidying up the way the output matrix looks and printing
+it out
+- Coordinate - used to store the (X,Y) combination of coordinates. Note: we have considered X
+to be on the x/horizontal axis, and Y to be on the y/vertical axis.
+The code is explained more in details in the comments.
+The reasoning for choosing DFS is explained above. I am willing to discuss any other possible
+solution if needed.
+Please feel free to reach out to me with any questions at amir.darouiech@gmail.com.
