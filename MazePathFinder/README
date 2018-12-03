@@ -1,0 +1,6 @@
+- Main class - with a main function reading the input and calling the best solution finder
+- BestSolutionFinder - which calls the maze finder and stores all the possible paths found
+- MazeSolver - actually solves the maze by using a DFS search algorithm
+- MazePrinter - that has only the duty of tidying up the way the output matrix looks and printing
+it out
+- Coordinate - used to store the (X,Y) combination of coordinates.
